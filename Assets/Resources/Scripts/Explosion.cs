@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class Explosion : MonoBehaviour
 {
+    //controla a explosao
+
     [SerializeField] private float power = 10f;
     [SerializeField] private float radius = 5f;
     [SerializeField] private float upForce = 1f;

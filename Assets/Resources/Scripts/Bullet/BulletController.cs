@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
+    //controla e instancia as balas da cena bullet
+
+
     public GameObject projectile;
     [SerializeField] private float bulletForce;
     private GameObject configs;

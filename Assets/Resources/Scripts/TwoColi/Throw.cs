@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Throw : MonoBehaviour
 {
+    //controla a cena de two fruits
+
     private GameObject child;
     private Rigidbody rb;
     private CapsuleCollider col;

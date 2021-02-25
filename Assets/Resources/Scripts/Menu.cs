@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    //controla o menu
+
     public GameObject panel;
     public GameObject play;
 

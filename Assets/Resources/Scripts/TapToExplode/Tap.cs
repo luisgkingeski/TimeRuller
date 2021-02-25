@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Tap : MonoBehaviour
 {
+    //controla a cena de tap to explode
+
     private GameObject child;
     private GameObject explosion;
     private CapsuleCollider col;

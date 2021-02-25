@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class TimeRewind : MonoBehaviour
 {
+    //Controla a volta no tempo
+
     private bool isRewinding = false;
     public List<PointInTime> pointsInTime;
     Rigidbody rb;

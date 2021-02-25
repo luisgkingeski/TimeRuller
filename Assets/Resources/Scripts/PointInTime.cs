@@ -2,6 +2,8 @@
 
 public class PointInTime
 {
+    //classe de retorno no tempo
+
     public Vector3 position;
     public Quaternion rotation;
 

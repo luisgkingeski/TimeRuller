@@ -2,6 +2,8 @@
 
 public class BulletObjs : MonoBehaviour
 {
+    //anexado as frutas da cena bullet
+
     private GameObject child;
     private CapsuleCollider col;
     private GameObject configs;

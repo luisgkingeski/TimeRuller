@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class SlowMotion : MonoBehaviour
 {
+    //Controla o slow motion
+
     public float slowDownFactor = 0.05f;
     public float slowDownLenght = 2f;
     private GameObject obj;

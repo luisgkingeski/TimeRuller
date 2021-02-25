@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SoundController : MonoBehaviour
 {
+    //Controla o som de cada cena
+
     public AudioSource squish;
     public AudioSource rewind;
     private int soundMod = 1;

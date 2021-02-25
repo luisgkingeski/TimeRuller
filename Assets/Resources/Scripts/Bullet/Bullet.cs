@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    //Controla as balas
+
     private bool left;
 
     void Start()

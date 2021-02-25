@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class ConfigController : MonoBehaviour
 {
+    //controla todas as configurações
 
     private GameObject configs;
     public Slider sliderExplosion, sliderSlow;
