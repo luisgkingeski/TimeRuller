@@ -30,6 +30,8 @@ public class BulletController : MonoBehaviour
         p.z = 3;
         Vector3 pos = Camera.main.ScreenToWorldPoint(p);
         Vector3 bulletPos = new Vector3(pos.x, pos.y, 4);
+        
+        // Condição par nao instanciar a bala ao clicar em config ou reset
 
         if (Input.GetMouseButtonDown(0) && (bulletPos.y < 1.3f && bulletPos.y > -1f))
         {

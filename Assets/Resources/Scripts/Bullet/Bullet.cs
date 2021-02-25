@@ -36,6 +36,9 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        //desativa o freeze se a colisao for com balas normais
+
+
         if (collision.gameObject.CompareTag("Parede"))
         {
             Destroy(gameObject);

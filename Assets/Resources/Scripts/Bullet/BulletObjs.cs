@@ -19,6 +19,7 @@ public class BulletObjs : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        //toca som ao encostar na parede ou na bala
         if (collision.gameObject.CompareTag("Parede") || collision.gameObject.CompareTag("Bullet"))
         {
             col.enabled = false;
